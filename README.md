@@ -1,170 +1,19 @@
+شرکت تهران برج، یکی از پلتفرم‌های معتبر آنلاین در زمینه خرید و فروش ملک در منطقه 22 تهران است. این پلتفرم به شما اطلاعات جامعی از جمله قیمت‌ها، شرایط فروش، و مشاوره در انتخاب بهترین پروژه‌های ساختمانی در چیتگر تهران را ارائه می‌دهد.
 
-# 🚀 PR-Checker
+با استفاده از این پلتفرم، شما می‌توانید به‌طور دقیق تمام اطلاعات مرتبط با پروژه‌های مسکونی و تجاری در چیتگر تهران را بررسی کنید و تصمیم‌گیری هوشمندانه‌تری را در مورد سرمایه‌گذاری‌های خود انجام دهید. این پلتفرم به شما امکان می‌دهد تا با دقت و با داشتن اطلاعات کاملتری در مورد بازار مسکن منطقه 22 تهران، تصمیم‌گیری بهتری برای سرمایه‌گذاری‌های خود انجام دهید. منطقه 22 تهران، یکی از مناطق مهم و جذاب شهری در پایتخت ایران، با ویژگی‌های منحصر به فرد خود یک جایگاه ویژه در بازار مسکن دارد. این منطقه که به نام "چیتگر" هم نیز شناخته می‌شود، در غرب تهران واقع شده و از شمال به اتوبان همت، از جنوب به اتوبان حکیم، از شرق به بزرگراه فتح و از غرب به منطقه حومه‌ای شهر دسترسی دارد.
 
-Detect and update your Pull Requests in batches, it contains a browser extension with `cli`
+منطقه 22 تهران به دلیل واقعیت‌های مختلفی، از جمله موقعیت مکانی برجسته، دسترسی آسان به مراکز شهری مهم، نزدیکی به تجارت و امکانات عمومی، و شهرسازی مدرن و منظم، به یکی از محبوب‌ترین مناطق برای سرمایه‌گذاری در مسکن تبدیل شده است.
 
-English | [中文](https://github.com/baiwusanyu-c/pr-checker/blob/master/README.ZH-CN.md)
-## Features
+مهمترین ویژگی‌های منطقه 22 تهران عبارتند از:
 
-- ⚡️Check whether the `PR` submitted by you needs to be updated according to the warehouse
-- ☘ Choose to update your submitted `PR` by command according to the repository
-- 🔥️ Check whether all `PR` under your account need to be updated with one click of the command
-- 🌷 Choose to update all `PR` under your account by command
+موقعیت جغرافیایی استراتژیک: این منطقه به علت نزدیکی به مراکز شهری مهم مانند مراکز تجاری، بیمارستان‌ها، دانشگاه‌ها و مراکز فرهنگی، برای افرادی که به دنبال زندگی در نقاط مرکزی تهران هستند، جذابیت دارد.
 
-## How to use BROWSER EXTENSIONS
+امکانات و خدمات عمومی: منطقه 22 تهران دارای امکانات متنوعی از جمله پارک‌ها، مراکز خرید، رستوران‌ها، بانک‌ها، و مدارس معتبر است که زندگی را راحت‌تر می‌کند.
 
-It's very easy to use, you just need to install  
-https://chrome.google.com/webstore/detail/pr-checker/gjalikalkhmfboaleppagmeflcfbjiej
+شهرسازی مدرن و پیشرفته: در چند دهه اخیر، شهرسازی منطقه به شکلی مدرن و با احداث برج‌های مسکونی و اداری پیشرفته تغییر کرده است.
 
-## BROWSER EXTENSIONS Screenshot
+قیمت مناسب مسکن: مقایسه با نواحی مرکزی تهران نشان می‌دهد که در منطقه 22 تهران می‌توان به قیمت‌های مسکن مناسب‌تری دست پیدا کرد.
 
-<img src="./public/popup.png" alt="Detect and update your Pull Requests in batches"/>
-<img src="./public/option.png" alt="Detect and update your Pull Requests in batches"/>
+دسترسی به اتوبان‌ها و محورهای حمل‌ونقل عمومی: وجود اتوبان همت و حکیم به عنوان مسیرهای اصلی ورودی و خروجی این منطقه، ارتباط آسان با دیگر نقاط تهران را فراهم می‌کند.
 
-## How to use CLI?
-
-#### 1.Install
-
-```` shell
-pnpm install pr-checker --global
-````
-or
-```` shell
-npm install pr-checker --global
-````
-or
-```` shell
-yarn install pr-checker --global
-````
-
-#### 2.Run command to use `pr-checker`
-
-* Set up your GitHub token
-> Please set GitHub Token for the first use
-```bash
-pr-checker -t #<GH_TOKEN> // set github token
-```
-
-* Please set your GitHub username for the first use.
-> For v1.1.1 and lower versions, you need to set the GitHub username for the first use
-Versions above v1.1.1 will automatically set the username according to the GitHub Token
-```bash
-pr-checker -u #<GH_USERNAME> // set github username
-```
-
-* Run the run command to check your pr
-```` shell
-pr-checker run
-````
-
-#### 3. Select type
-
-```` shell
-? Detect all Repo's PR? » - Use arrow-keys. Return to submit.
->   All Repo
-    Detect the PR of a certain Repo
-
-````
-
-#### 4. Select Repo (if you choose `Detect the PR of a certain Repo`)
-
-```` shell
-? Please select a Repo » - Use arrow-keys. Return to submit.
->   baiwusanyu-c/pr-checker
-    vuejs/core
-    mistjs/vite-plugin-copy-files
-
-````
-After that, the `PR` will be checked to see if it can be updated
-```shell
-✔ Please select a Repo › vuejs/core
-[pr-checker]:Checking PR by vuejs/core......
-[pr-checker]:✔ Check PR #7525 completed
-[pr-checker]:✔ Check PR #7502 completed
-[pr-checker]:✔ Check PR #7557 completed
-[pr-checker]:✔ Check PR #7004 completed
-[pr-checker]:✔ Check PR #7457 completed
-
-```
-
-#### 5. Select `PR` to update
-
-```` shell
-? Please select the PR that needs to be updated › 
-◯   <can`t merge:no update>: [vuejs/core]-[#7942] -> feat(custom-element): Custom element...
-◯   <can`t merge:no update>: [vuejs/core]-[#7901] -> fix(runtime-dom): TransitionGroup do...
-◯   <can`t merge:no update>: [vuejs/core]-[#7891] -> refactor(server-renderer): slotScope...
-◯   <can`t merge:no update>: [vuejs/core]-[#7837] -> fix(runtime-core): `to` changes duri...
-◯   <can`t merge:no update>: [vuejs/core]-[#7803] -> feat(compiler-sfc): support props na...
-◯   <can`t merge:no update>: [vuejs/core]-[#7776] -> fix(hydration): Use decodeHtml when ...
-◯   <can`t merge:no update>: [vuejs/core]-[#7730] -> fix(compiler-core): using v-once ins...
-◯   <can`t merge:no update>: [vuejs/core]-[#7716] -> fix(runtime-core): fix error when v-...
-◯   <can`t merge:no update>: [vuejs/core]-[#7557] -> fix(compiler-ssr): TransitionGroup o...
-◯   <can`t merge:no update>: [vuejs/core]-[#7541] -> fix(runtime-dom): `transitionGroup` ...
-◯   <can`t merge:no update>: [vuejs/core]-[#7525] -> feat(runtime-dom): custom element su...
-◯   <can`t merge:no update>: [vuejs/core]-[#7502] -> fix(server-renderer): getSSRProps ca...
-◯   <can`t merge:no update>: [vuejs/core]-[#7475] -> fix(runtime-dom): undefined cssvars ...
-
-````
-After the last update is completed, those that do not meet the update conditions (such as code conflicts) will be deemed unable to be automatically updated.
-
-```shell
-√ Update PR by vuejs/core......
-✔ All PR updates completed
-┌────────┬───────────┬─────────┬──────────────┬────────────────────────────────────────────────────────────────────────────────────────────────┐     
-│ number │ can merge │ success │ repo         │ title                                                                                          │     
-├────────┼───────────┼─────────┼──────────────┼────────────────────────────────────────────────────────────────────────────────────────────────┤     
-│ #7662  │ false     │ false   │ <vuejs/core> │ feat(customElement): Additional event arguments of CustomEvent                                 │     
-│ #7557  │ false     │ false   │ <vuejs/core> │ fix(compiler-ssr): TransitionGroup owns style-scoped properties on SSR                         │     
-│ #7541  │ true      │ true    │ <vuejs/core> │ fix(runtime-dom): `transitionGroup` can render `:slotted` styles                               │     
-│ #7525  │ true      │ true    │ <vuejs/core> │ feat(runtime-dom): custom element support v-model                                              │     
-│ #7502  │ true      │ true    │ <vuejs/core> │ fix(server-renderer): getSSRProps can get exposed property                                     │     
-│ #7475  │ true      │ true    │ <vuejs/core> │ fix(runtime-dom): undefined cssvars should not be bound to the element                         │     
-│ #7457  │ true      │ true    │ <vuejs/core> │ fix(runtime-core): boolean type and string type problem during props normalization process     │     
-│ #7434  │ true      │ true    │ <vuejs/core> │ fix(runtime-core): Select elements can preserve data types when stringified                    │     
-│ #7344  │ true      │ true    │ <vuejs/core> │ fix(runtime): CSSVars can work with Teleport                                                   │     
-│ #7341  │ true      │ true    │ <vuejs/core> │ fix(runtime-core): Fix cssvars reporting error when teleport is disabled                       │     
-│ #7266  │ true      │ true    │ <vuejs/core> │ fix(runtime-core): Correct update renders both old and new dynamic child node arrays are empty │     
-│ #7151  │ true      │ true    │ <vuejs/core> │ fix(suspense): In nested slots suspense should return to pending state                         │     
-│ #7108  │ true      │ true    │ <vuejs/core> │ fix(compiler-core): custom directive to empty string syntax error in ssr(#6283 )               │     
-│ #7004  │ true      │ true    │ <vuejs/core> │ fix(runtime-dom): `v-model` can update correctly when the element is an input of type number   │     
-│ #6783  │ true      │ true    │ <vuejs/core> │ fix(runtime-core):transition missing root node warning used in prod #6752                      │     
-│ #6224  │ true      │ true    │ <vuejs/core> │ feat(runtime-core): Update rendering error caused by shallow copy #6221                        │     
-└────────┴───────────┴─────────┴──────────────┴────────────────────────────────────────────────────────────────────────────────────────────────┘  
-```
-### Other
-#### -v ｜ --version
-Display version message
-
-```` shell
-pr-checker -v
-````
-
-#### -h ｜ --help
-Display help message
-
-#### -m ｜ --mode
-Use `rebase` mode or `merge` mode, the default value is `rebase` mode
-
-> In `rebase` mode, you can choose a repository or directly `rebase` all your submitted `pr`
-It will call `/repos/${repoName}/pulls/${prNumber}/update-branch`.
-
->In `merge` mode, it's an experimental feature . You can `merge` on repositories you own (except `fork` repositories)
-It will call `/repos/${repoName}/pulls/${prNumber}/merge`.
-A typical usage scenario is batch processing `pr` of `dependabot` (the function of adding to `merge queue` has not yet been completed).
-In addition, since the github api does not support importing pr to the merge queue, I used the queue for round-robin requests, so it is not guaranteed that all pr
-can be successfully merged
-
-
-```` shell
-pr-checker run -m merge ｜ rebase
-````
-
-## CLI Screenshot
-<img src="./public/cli1.png" alt="Detect and update your Pull Requests in batches"/>
-<img src="./public/cli2.png" alt="Detect and update your Pull Requests in batches"/>
-<img src="public/cli3.png" alt="Detect and update your Pull Requests in batches"/>
-
-## Thanks
-* [cpr](https://github.com/edison1105/cpr)
-
+منطقه 22 تهران به عنوان یکی از مناطق پرطرفدار برای سرمایه‌گذاری در مسکن و خرید خانه به عنوان محل زندگی مطلوب، به دلیل این ویژگی‌ها و مزایا شناخته می‌شود و ممکن است برای افرادی که به دنبال یک زندگی شهری راحت و همچنین سرمایه‌گذاری موفق در بازار مسکن هستند، گزینه‌ای جذاب باشد. برای اطلاغات بیشتر میتوانید به وبسایت Https://www.tehran-borj.ir مراجعه فرمایید
